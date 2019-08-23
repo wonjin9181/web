@@ -1,0 +1,120 @@
+.mainCard {
+  background-color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  padding: 20px;
+  z-index: 9;
+  font-family: "Kalam", cursive;
+  color: rgb(0, 48, 14);
+  margin-top: 15vh;
+}
+
+#monsterCard {
+  background-color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  font-family: "Kalam", cursive;
+  color: rgb(0, 48, 14);
+  align-content: center;
+}
+.main-monsterName{
+  font-size:25px;
+}
+#monsterInfo {
+  color: darkred;
+  text-align: center;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#avatar {
+  height: 180px;
+  width: 150px;
+}
+
+#avatar2 {
+  height: 160px;
+  width: 110px;
+}
+
+.logoutBtn {
+  margin-left: 0px;
+  margin-top: 25px;
+  float: right;
+  background-color: darkkhaki;
+}
+
+.stageBtn {
+  background-color: rgb(131, 2, 2);
+  color: white;
+}
+
+h6 {
+  margin-bottom: 3px;
+  text-align: left;
+}
+#houseMembers {
+  background-color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  padding: 20px;
+  z-index: 9;
+  font-family: "Kalam", cursive;
+  color: rgb(0, 48, 14);
+  margin-top: 5vh;
+  margin-bottom: 30vh;
+  overflow-y: scroll;
+  width: 300px;
+  height: 100px;
+}
+
+li {
+  list-style-type: none;
+}
+
+#userInfo {
+  color: darkgreen;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#houseText {
+  color: lightblue;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  background-color: transparent;
+}
+
+#character {
+  width: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#mainCard:hover {
+  box-shadow: 0 10px 18px 0 rgba(0, 0, 0, 0.24),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#mainContainer {
+  align-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+  #mainCard {
+    margin-top: 10vh;
+    width: 40px;
+    height: 40px;
+    padding: 10px
+  }
+#userRow {
+  flex-wrap: unset 
+}
+
+h2 {
+font-size: 18px
+}
+  #houseMembers {
+    margin-top: 5vh;
+    margin-bottom: 30vh;
+    overflow-y: scroll;
+    width: 50px;
+  }
+
+
+}

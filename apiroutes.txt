@@ -1,0 +1,24 @@
+/api/users
+get, post
+
+/api/users/:id
+get, put, delete
+
+/api/house
+get
+
+/api/house/:id
+get, put 
+
+/api/house/:id/spells
+get
+
+/api/monsters
+get
+
+/api/monsters/:id
+get
+
+/api/login
+
+/api/logout

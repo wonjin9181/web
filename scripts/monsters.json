@@ -1,0 +1,27 @@
+[
+    {
+        "monsterName": "Infernobeast",
+        "strength":80,
+        "monsterDescription":"Fire Monster",
+        "imageIndex": 0
+
+    },
+    {
+        "monsterName": "Leviathan",
+        "strength":160,
+        "monsterDescription":"Water Monster",
+        "imageIndex": 1
+    },
+    {
+        "monsterName": "Mist Hawk",
+        "strength":200,
+        "monsterDescription":"Air Monster",
+        "imageIndex": 2
+    },
+    {
+        "monsterName": "The Onyx Brute",
+        "strength":400,
+        "monsterDescription":"Earth Monster",
+        "imageIndex": 3
+    }
+]

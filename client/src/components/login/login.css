@@ -1,0 +1,96 @@
+#loginaside {
+  position: absolute;
+  top: 40vh;
+  left: 25vw;
+  right: 25vw;
+  bottom: 12vw;
+  background-color: rgba(255,255,255,0.5);
+  text-align: center;
+  padding: 20px;
+  z-index: 9
+}
+
+
+/* #loginaside {
+  margin-top: 12vh;
+  background-color: rgba(255,255,255,0.5);
+  text-align: center;
+  padding: 25px;
+  z-index: 9
+} */
+
+#loginaside:hover {
+  box-shadow: 0 10px 18px 0 rgba(0, 0, 0, 0.24),0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h1 {
+  text-align: right;
+  font-family: "Kalam", cursive;
+  font-size: 90px;
+  color: lightblue;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+
+p {
+  text-align: right;
+  font-family: "Kalam", cursive;
+  font-size: 40px;
+  color: lightblue;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.loginForm {
+  font-family: "Kalam", cursive;
+  font-size: 25px;
+  color: darkred;
+}
+
+.btn {
+  text-align: center;
+  font-family: "Kalam", cursive;
+  color: darkred;
+  font-size: 20px;
+  margin-left: 20px !important;
+}
+
+.btn:hover {
+  box-shadow: 0 10px 18px 0 rgba(0, 0, 0, 0.24),0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.input {
+  font-family: "Kalam", cursive;
+  color: darkred;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+ h1 {
+   padding-top: 20px; 
+   font-size: 30px;
+ }
+ p {
+  font-size: 30px;
+ }
+  #loginaside {
+    position: absolute;
+    top: 25vh;
+    left: 10vw;
+    right: 10vw;
+    bottom: 70vw;
+    padding: 20px;
+    z-index: 9;
+    text-align: left;
+  }
+
+.btn {
+  font-size: 13px;
+  margin-left: 20px !important;
+}
+
+.input {
+  font-size: 10px;
+}
+}
+
+
